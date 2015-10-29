@@ -1,7 +1,16 @@
-<center>
-<h1>Adam Maxwell Sunshine</h1>
-<p>Hello, World! Welcome to Adam's Personal Website.</p>
+<div class="center jumbotron">
+  <center><h1>Adam Sunshine</h1>
 
-<br>
-<p> You should appreciate this screen, hopefully this website is the start of something special. My goal is 20 hours on this site.</p>
+  <h2>
+    The home page for
+    <a href="/">Sunshine Development Studios</a>
+     is currently under development.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 </center>
+</div>
+
+<%= link_to image_tag("red_rocks_image.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+
