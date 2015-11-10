@@ -1,2 +1,26 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<div class= "container">
+	<div class= "col-sm-6 col-md-6 col-lg-6 col-xl-6">
+
+	<center>
+		<h3>About</h3>
+		<h5>Hi there! Thanks for checking out my website.</h5>
+	<br>
+	<h5>I'm a recent college grad with a passion for developing software products (hopefully soon creating companies), who also enjoys sports and spending time with those I care about.</h5>
+	<br>
+	<h5>Check out my Blog <%= link_to "here ",   '/side_projects' %>for more of my ideas, and <%= link_to "here",   '/experience' %> for more info on my experience.</h5>
+	<br>
+	
+	<p>So basically, I'm a young adult who has always been very ambitious in life. I truly believed I was going to be in the NBA up until senior year of high school. However, I realized my body was not made for the NBA, but instead I could still have a large scale positive impact on the world through the use of technology.</p>
+	<br>
+	<p>I beleive in empowering people with access to the right kind of information in an application that allows them to accomplish whatever they desire. I hope to build a variety of products that empower people to live the kind of lives they truly desire and can be happy with.</p>
+	</center>
+</div>
+
+<div class= "col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	<center>
+<%= link_to image_tag("lost_gulch.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+     </center>
+             
+</div>
+</div>
