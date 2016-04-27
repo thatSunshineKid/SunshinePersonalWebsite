@@ -9,6 +9,23 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  background: url('background.jpg');
+  background-size: 600px 370px;
+  display: compact;
+  background-position: top left;
+}
+
+.text-box {
+  margin: 20px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  border: 0px solid black;
+  border-radius: 25px;
+}
+
+.img-sizing {
+  width: 100%;
 }
 
 section {
