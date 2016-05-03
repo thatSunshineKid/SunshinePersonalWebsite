@@ -1,8 +1,14 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <%= link_to "Adam Sunshine", '#', id: "logo" %>
-        <h2 class= "navbar-text">Software Developer | Boulder, CO</h2>
-        <nav>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Adam Sunshine | Software Developer | Boulder, CO</a>
+      </div>
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "Home",   '/' %></li>
             <li><%= link_to "About", '/about' %></li>
@@ -10,6 +16,6 @@
             <li><%=link_to "Projects", '/side_projects' %></li>
             <li><%= link_to "Contact", '/contact' %></li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
+    </div>
+    </nav>

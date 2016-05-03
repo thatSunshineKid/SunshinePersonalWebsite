@@ -17,18 +17,17 @@
 
 <div class= "container">
 	<div class= "col-sm-6 col-md-6 col-lg-6 col-xl-6">
-	<center class= "text-box"><h5>Hi there! Thanks for checking out my website.</h5>
+	<center class= "text-box"><h3>Welcome to my Website!</h3>
 	<br>
-	<h5>I'm a recent college grad with a passion for developing software products (hopefully soon creating companies), who also enjoys sports and spending time with those I care about.</h5>
+	<p>My name is Adam Sunshine, and I am a recent college graduate with a passion for developing software products. I also enjoy sports and spending time with those I care about.</p>
 	<br>
-	<h5>Check out my Blog <%= link_to "here ",   '/side_projects' %>for more of my ideas, and <%= link_to "here",   '/experience' %> for more info on my experience.</h5>
+	<p>Check out my recent side projects <%= link_to "here ",   '/side_projects' %>for more of my ideas, and <%= link_to "here",   '/experience' %> for more info on my experience.</p>
 	</center>
 </div>
 
 <div class= "col-sm-6 col-md-6 col-lg-6 col-xl-6">
-<center class="img-sizing">
-<%= link_to image_tag("red_rocks_image.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
+<center>
+<%= image_tag("red_rocks_image.png", alt: "Rails logo", class: "img-rounded") %>
            </center>
 
 </div>
